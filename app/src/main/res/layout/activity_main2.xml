@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="八维学生推荐排行榜"
+        android:background="@android:color/holo_green_light"
+        android:textColor="#fff"
+        android:textSize="42sp"
+        android:gravity="center"
+        android:layout_height="80dp"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:id="@+id/iv_name"
+        android:layout_marginTop="30dp"
+        android:layout_height="300dp"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="微信"
+            android:id="@+id/btn_sendWeiXin"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="QQ"
+            android:id="@+id/btn_sendQQ"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
